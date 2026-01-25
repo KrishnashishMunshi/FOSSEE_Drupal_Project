@@ -1,0 +1,7 @@
+administer event registration:
+  title: 'Administer Event Registration'
+  description: 'Configure events and settings'
+
+view event registrations:
+  title: 'View Event Registrations'
+  description: 'Access the event registrations listing page'
