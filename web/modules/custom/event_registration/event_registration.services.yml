@@ -1,0 +1,4 @@
+services:
+  event_registration.event_manager:
+    class: Drupal\event_registration\EventManager
+    arguments: ['@database', '@config.factory']
