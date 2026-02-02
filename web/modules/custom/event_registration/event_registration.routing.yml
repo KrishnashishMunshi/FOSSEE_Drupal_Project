@@ -25,11 +25,19 @@ event_registration.settings:
   requirements:
     _permission: 'administer event registration'
 
-# # Admin Listing Page
-# event_registration.admin_list:
-#   path: '/admin/reports/event-registrations'
-#   defaults:
-#     _controller: '\Drupal\event_registration\Controller\AdminListController::listRegistrations'
-#     _title: 'Event Registrations'
-#   requirements:
-#     _permission: 'view event registrations'
+# Admin Listing Page
+event_registration.admin_list:
+  path: '/admin/reports/event-registrations'
+  defaults:
+    _controller: '\Drupal\event_registration\Controller\AdminListController::listRegistrations'
+    _title: 'Event Registrations'
+  requirements:
+    _permission: 'view event registrations'
+
+event_registration.export_csv:
+  path: '/admin/reports/event-registrations/export'
+  defaults:
+    _controller: '\Drupal\event_registration\Controller\AdminListController::exportCsv'
+    _title: 'Export Registrations'
+  requirements:
+    _permission: 'view event registrations'

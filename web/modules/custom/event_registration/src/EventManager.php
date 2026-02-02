@@ -217,5 +217,33 @@ class EventManager {
 
     return $query->countQuery()->execute()->fetchField();
   }
+/**
+   * Gets all unique event dates from event_config.
+   *
+   * @return array
+   *   Array of event dates.
+   */
+  public function getAllEventDates() {
+    $query = $this->database->select('event_config', 'ec')
+      ->fields('ec', ['event_date'])
+      ->distinct()
+      ->orderBy('event_date', 'ASC');
+    return $query->execute()->fetchCol();
+  }
 
+  /**
+   * Gets events by date.
+   *
+   * @param string $event_date
+   *   The event date.
+   *
+   * @return array
+   *   Array of events with id and name.
+   */
+  public function getEventsByDate($event_date) {
+    $query = $this->database->select('event_config', 'ec')
+      ->fields('ec', ['id', 'event_name'])
+      ->condition('event_date', $event_date);
+    return $query->execute()->fetchAllKeyed();
+  } 
 }
