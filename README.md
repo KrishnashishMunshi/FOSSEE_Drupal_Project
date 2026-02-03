@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Project Specifications
+##  Project Specifications
 
 ### Architecture
 - **Service-Oriented Design**: Business logic isolated in `EventManager` service, injected via Dependency Injection (no `\Drupal::service()` in forms/controllers)
@@ -23,7 +23,7 @@
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
 ### Dynamic User Interface
 - **AJAX Cascading Dropdowns**: Select category → event dates populate → select date → event names populate
@@ -48,7 +48,7 @@
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### Table: `event_config`
 | Column | Type | Description |
@@ -79,7 +79,7 @@
 
 ---
 
-## 🧠 Key Design Decisions
+##  Key Design Decisions
 
 ### Challenge: Complex AJAX Dependency Chain
 **Problem**: Registration form needs 3-level cascading dropdowns (category → date → event name)  
@@ -123,7 +123,7 @@ $admin_email = $config->get('admin_email');
 
 ---
 
-## 🚀 Installation Instructions
+##  Installation Instructions
 
 ### Prerequisites
 - Drupal 10.x installed
@@ -172,7 +172,7 @@ ddev drush role:perm:add administrator 'view event registrations'
 
 ---
 
-## 📂 Module Structure
+##  Module Structure
 
 ```
 event_registration/
@@ -197,7 +197,7 @@ event_registration/
 
 ---
 
-## 🧪 Quick Test Workflow
+##  Quick Test Workflow
 
 **1. Create Event (as admin)**
 ```
