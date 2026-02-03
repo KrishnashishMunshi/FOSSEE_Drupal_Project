@@ -238,7 +238,7 @@ SELECT * FROM event_registration;
 
 ---
 
-## ⚙️ Technical Highlights
+##  Technical Highlights
 
 ### Dependency Injection Pattern
 ```php
@@ -277,7 +277,7 @@ public function updateEventDateCallback(array &$form, FormStateInterface $form_s
 
 ---
 
-## ✅ Submission Checklist
+## Submission Checklist
 
 - [x] SQL dump includes sample events
 - [x] No debug statements (`kint`, `dpm`, `var_dump`)
@@ -290,7 +290,7 @@ public function updateEventDateCallback(array &$form, FormStateInterface $form_s
 
 ---
 
-## 📞 Contact
+##  Contact
 
 **Developer**: Krishnashish Munshi  
 **Email**: ksmunshi06@gmail.com
