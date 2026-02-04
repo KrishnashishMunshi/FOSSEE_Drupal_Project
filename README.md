@@ -2,6 +2,8 @@
 
 **FOSSEE Summer Internship Submission**
 
+<img width="3127" height="1154" alt="Image" src="https://github.com/user-attachments/assets/ea9add66-0611-4659-ac57-433ea0e34509" />
+
 ---
 
 ##  Project Specifications
@@ -237,6 +239,9 @@ event_registration/
 - Visit `/admin/reports/event-registrations`
 - Filter by event, export CSV
 
+<img width="1862" height="606" alt="Image" src="https://github.com/user-attachments/assets/3e87ab5c-5b1b-4854-ac5c-2a0b6949d9e2" />
+
+<img width="1862" height="606" alt="Image" src="https://github.com/user-attachments/assets/fa996f60-0989-47b4-b33e-365849cff949" />
 
 <img width="1857" height="964" alt="Image" src="https://github.com/user-attachments/assets/364e2b55-a6e6-454e-afef-b42d605d111a" />
 
