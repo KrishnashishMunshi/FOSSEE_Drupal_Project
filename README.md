@@ -208,6 +208,7 @@ event_registration/
 - Registration Start: 2026-02-01
 - Registration End: 2026-03-10
 ```
+<img width="1857" height="761" alt="Image" src="https://github.com/user-attachments/assets/c65e20d3-1f6c-4f5c-ad65-5d809eb1c131" />
 
 **2. Configure Settings**
 ```
@@ -216,6 +217,10 @@ event_registration/
 - Enable Notifications: ✓
 ```
 
+<img width="1862" height="440" alt="Image" src="https://github.com/user-attachments/assets/dc8cdf5b-7b3b-4abd-91d1-5ae782e8fa6b" />
+
+
+
 **3. Register (as user)**
 ```
 /event/register
@@ -223,11 +228,19 @@ event_registration/
 - Select date → event names populate
 - Submit form
 ```
+<img width="1857" height="964" alt="Image" src="https://github.com/user-attachments/assets/825740db-4081-4d80-bdbe-aa5b9d491dbf" />
+
+<img width="1857" height="964" alt="Image" src="https://github.com/user-attachments/assets/19c6d450-de93-4bb9-acca-6085564bcc3d" />
 
 **4. Verify**
 - Check email inbox (user + admin notifications)
 - Visit `/admin/reports/event-registrations`
 - Filter by event, export CSV
+
+
+<img width="1857" height="964" alt="Image" src="https://github.com/user-attachments/assets/364e2b55-a6e6-454e-afef-b42d605d111a" />
+
+<img width="1915" height="1042" alt="Image" src="https://github.com/user-attachments/assets/05457f28-959d-4267-86cb-fc8675309a4d" />
 
 **5. Database Verification**
 ```bash
